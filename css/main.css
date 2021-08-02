@@ -1,0 +1,27 @@
+:root {
+  --main-font: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+.color-switch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  height: 100vh;
+}
+
+button {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ee0030;
+
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+}
